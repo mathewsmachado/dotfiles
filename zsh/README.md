@@ -2,7 +2,6 @@
 **Description**: Z shell config file.
 
 **Setup**: ln -s $CONFIG/zsh/.zshrc $HOME
-========================== needs to come after the "source $ZSH/oh-my-zsh.sh"
 
 **Obs**:
 - Aliases must be defined after oh-my-zshell source

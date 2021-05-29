@@ -1,7 +1,7 @@
 # .tmux.conf
 **Description**: Tmux config file.
 
-**Setup**: ln - s $DOTFILES/tmux/.tmux.conf $HOME
+**Setup**: ln -s $DOTFILES/tmux/.tmux.conf $HOME
 
 **Obs**: If some shortcut isn't working, see if your terminal emulator doesn't has the same shortcuts.
 
