@@ -1,0 +1,62 @@
+{
+  "console.log": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "clg",
+    "body": ["console.log($0)"],
+    "description": "log params to console"
+  },
+  "jest 'describe' block": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "desc",
+    "body": [
+      "describe('$0', () => {",
+      "  it('should', () => {",
+      "    expect(2).toBe(2);",
+      "  });",
+      "});"
+    ],
+    "description": "jest 'describe' block"
+  },
+  "react self-closed fragment": {
+    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "frag",
+    "body": ["<$0 />"],
+    "description": "self-closed tag"
+  },
+  "html tag/jsx fragment": {
+    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "fragg",
+    "body": ["<$0>", "</$0>"],
+    "description": "tag with no content"
+  },
+  "function statement": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "fun",
+    "body": ["function $0() {", "", "}"],
+    "description": "function statement"
+  },
+  "iife": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "iife",
+    "body": ["(async () => {", "  $0", "})();"],
+    "description": "asynchronous immediately invoked function expression"
+  },
+  "named import ": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "imp",
+    "body": ["import { $0 } from '$1';"],
+    "description": "named import statement"
+  },
+  "default import": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "impd",
+    "body": ["import $0 from '$1';"],
+    "description": "default import statement"
+  },
+  "jest 'it' block": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "its",
+    "body": ["it('should $0', () => {", "  expect(2).toBe(2);", "});"],
+    "description": "jest 'it' block"
+  }
+}

@@ -1,0 +1,79 @@
+// prettier-ignore
+[
+  // ============================= EDITOR
+  // COMMENT LINE
+  /* unbind */ { "key": "ctrl+/", "command": "-editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
+  /* bind */ { "key": "alt+;", "command": "editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
+
+  // DUPLICATE CURSOR
+  /* unbind */ { "key": "ctrl+shift+up", "command": "-editor.action.insertCursorAbove", "when": "editorTextFocus" },
+  /* unbind */ { "key": "shift+alt+down", "command": "-editor.action.insertCursorBelow", "when": "editorTextFocus" },
+  /* bind */ { "key": "ctrl+alt+up", "command": "editor.action.insertCursorAbove", "when": "editorTextFocus" },
+  /* bind */ { "key": "ctrl+alt+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus" },
+
+  // DUPLICATE LINE
+  /* unbind */ { "key": "ctrl+shift+alt+down", "command": "-editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
+  /* unbind */ { "key": "ctrl+shift+alt+up", "command": "-editor.action.copyLinesUpAction", "when": "editorTextFocus && !editorReadonly" },
+  /* bind */ { "key": "shift+alt+down", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
+  /* bind */ { "key": "shift+alt+up", "command": "editor.action.copyLinesUpAction", "when": "editorTextFocus && !editorReadonly" },
+
+  // SPLIT EDITOR
+  /* unbind */ { "key": "ctrl+\\", "command": "-workbench.action.splitEditor" },
+  /* unbind */ { "key": "ctrl+k ctrl+\\", "command": "-workbench.action.splitEditorOrthogonal" },
+  /* bind */ { "key": "ctrl+alt+r", "command": "workbench.action.splitEditor" },
+  /* bind */ { "key": "ctrl+alt+d", "command": "workbench.action.splitEditorOrthogonal" },
+
+  // ============================= EXPLORER
+  // OPEN/CLOSE EXPLORER
+  /* unbind */ { "key": "ctrl+tab", "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup" },
+  /* unbind */ { "key": "ctrl+tab", "command": "-workbench.action.quickOpenNavigateNextInEditorPicker", "when": "inEditorsPicker && inQuickOpen" },
+  /* unbind */ { "key": "ctrl+shift+tab", "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup" },
+  /* unbind */ { "key": "ctrl+shift+tab", "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker", "when": "inEditorsPicker && inQuickOpen" },
+  /* unbind */ { "key": "ctrl+b", "command": "-workbench.action.toggleSidebarVisibility" },
+  /* bind */ { "key": "ctrl+tab", "command": "workbench.action.toggleSidebarVisibility" },
+
+  // FOCUS EXPLORER
+  /* unbind */ { "key": "ctrl+shift+e", "command": "-workbench.view.explorer" },
+  /* bind */ { "key": "ctrl+'", "command": "workbench.view.explorer" },
+
+  // BLUR EXPLORER 
+  /* unbind */ { "key": "ctrl+shift+e", "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker", "when": "inFilesPicker && inQuickOpen" },
+  /* bind */ { "key": "ctrl+'", "command": "workbench.action.quickOpenNavigatePreviousInFilePicker", "when": "inFilesPicker && inQuickOpen" },
+
+  // COLLAPSE EXPLORER FOLDERS
+  /* bind */ { "key": "ctrl+shift+'", "command": "workbench.files.action.collapseExplorerFolders" },
+
+  // ============================= FILE
+  // FORMAT
+  /* unbind */ { "key": "ctrl+shift+i", "command": "-editor.action.formatDocument", "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor" },
+  /* bind */ { "key": "shift+alt+f", "command": "editor.action.formatDocument", "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor" },
+
+  // NEW FILE
+  /* unbind */ { "key": "ctrl+n", "command": "-workbench.action.files.newUntitledFile" },
+  /* bind */ { "key": "ctrl+n", "command": "explorer.newFile" },
+
+  // SAVE
+  /* unbind */ { "key": "ctrl+s", "command": "-workbench.action.files.save" },
+  /* bind */ { "key": "ctrl+k s", "command": "workbench.action.files.save" },
+
+  // SAVE ALL
+  /* unbind */ { "key": "ctrl+k s", "command": "-workbench.action.files.saveAll" },
+  /* bind */ { "key": "ctrl+s", "command": "workbench.action.files.saveAll" },
+  
+  // ============================= MOUSE
+  // OPEN LINK
+  /* unbind */ { "key": "f12", "command": "-editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
+  /* bind */ { "key": "ctrl+shift+c", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
+
+  // SHOW HOVER
+  /* unbind */ { "key": "ctrl+h", "command": "-editor.action.startFindReplaceAction", "when": "editorFocus || editorIsOpen" },
+  /* unbind */ { "key": "ctrl+k ctrl+i", "command": "-editor.action.showHover", "when": "editorTextFocus" },
+  /* bind */ { "key": "ctrl+h", "command": "editor.action.showHover", "when": "editorTextFocus" },
+
+  // ============================= EXTENSIONS
+  // Toggle Semicolon
+  /* bind */ { "key": "ctrl+;", "command": "extension.toggleSemicolon" },
+  /* bind */ { "key": "ctrl+,", "command": "extension.toggleComma" },
+
+  { "none": "none", "key": "none", "command": "none" }
+]

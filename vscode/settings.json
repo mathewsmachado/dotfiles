@@ -1,0 +1,84 @@
+{
+  // ============================= NATIVE
+  // editor
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+
+  // explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // languages
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // search
+  "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
+
+  // ============================= EXTENSIONS
+  "extensions.ignoreRecommendations": true,
+
+  // Bracket Pair Colorizer
+  "editor.matchBrackets": "never",
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Dracula Pro
+  "workbench.colorTheme": "Dracula Pro",
+
+  "editor.fontFamily": "Fira Code Retina, Consolas",
+  "editor.fontLigatures": true,
+
+  // GitLens
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.defaultDateFormat": "DD/MMM/YYYY HH:mm",
+  "gitlens.defaultDateShortFormat": "DD/MMM/YYYY",
+  "gitlens.defaultTimeFormat": "HH:mm",
+  "gitlens.statusBar.enabled": false,
+
+  // Language Support For Java
+  "java.home": "/usr/lib/jvm/java-14-openjdk-amd64",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // Material Icon Theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Path Intellisense
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+
+  // PHP Intelephense
+  "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+
+  "none": "none"
+}
