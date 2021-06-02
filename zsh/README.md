@@ -1,19 +1,20 @@
 # .zshrc
-**Description**: Z shell config file.
+
+**Description**: Z shell configuration file.
 
 **Setup**: ln -s $CONFIG/zsh/.zshrc $HOME
 
-**Obs**:
-- Aliases must be defined after oh-my-zshell source
+**Obs**: Aliases must be defined after oh-my-zshell source.
 
 ## DICTIONARY
+
 **alias**: defines an alias
 
-**bindkey**: attach a key to a command
+**bindkey**: attachs a key to a command
 
 **eval**: evaluates an expression
 
-**export**: defines a environment variable
+**export**: defines an environment variable
 
 **source**: loads a file
 
