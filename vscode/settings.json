@@ -8,7 +8,7 @@
   "editor.multiCursorModifier": "alt",
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
-
+  
   // explorer
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -24,6 +24,11 @@
   // search
   "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
 
+  // style
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "editor.fontFamily": "Fira Code Retina, Consolas",
+  "editor.fontLigatures": true,
+
   // ============================= EXTENSIONS
   "extensions.ignoreRecommendations": true,
 
@@ -35,12 +40,6 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-
-  // Dracula Pro
-  "workbench.colorTheme": "Dracula Pro",
-
-  "editor.fontFamily": "Fira Code Retina, Consolas",
-  "editor.fontLigatures": true,
 
   // GitLens
   "gitlens.currentLine.scrollable": false,

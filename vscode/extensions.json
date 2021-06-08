@@ -30,6 +30,10 @@
       "downloadName": "eamodio.gitlens"
     },
     {
+      "name": "gruvbox",
+      "downloadName": "jdinhlife.gruvbox"
+    },
+    {
       "name": "java",
       "downloadName": "redhat.java"
     },
@@ -60,10 +64,6 @@
     {
       "name": "px-to-rem",
       "downloadName": "sainoba.px-to-rem"
-    },
-    {
-      "name": "swdc-vscode",
-      "downloadName": "softwaredotcom.swdc-vscode"
     },
     {
       "name": "theme-dracula-pro",
