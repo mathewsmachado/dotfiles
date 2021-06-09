@@ -50,6 +50,7 @@ cb() { $@ | xclip -sel clip } # do not accept 'aliased' params
 alias notes="cb echo ⭕✅👉💧"
 alias taviao="cb echo \"¯\_(ツ)_/¯\""
 alias travessao="cb echo \"—\"" 
+alias puud="pwd && cb pwd"
 
 # exit
 alias q="exit"
