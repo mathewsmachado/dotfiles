@@ -1,0 +1,7 @@
+[user]
+	name = Mathews Machado
+	email = mathews.machadoamorim@gmail.com
+[core]
+	editor = nvim
+[credential]
+	helper = store
