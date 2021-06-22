@@ -5,8 +5,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="/opt/lampp/bin:$PATH"
 
-export DOTFILES="$HOME/dotfiles"
-
 # ============================= APPS CONFIG
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
@@ -54,10 +52,10 @@ alias travessao="cb echo \"—\""
 alias puud="pwd && cb pwd"
 
 # dotfiles
-alias .d="code $DOTFILES"
-alias .tr="tmux source-file $DOTFILES/tmux/.tmux.conf"
-alias .vr="source $DOTFILES/nvim/init.vim"
-alias .zr="source $DOTFILES/zsh/.zshrc"
+alias .d="code $HOME/dotfiles"
+alias .tr="tmux source-file $HOME/dotfiles/tmux/.tmux.conf"
+alias .vr="source $HOME/dotfiles/nvim/init.vim"
+alias .zr="source $HOME/dotfiles/zsh/.zshrc"
 
 # exit
 alias q="exit"
