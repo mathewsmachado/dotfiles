@@ -40,7 +40,7 @@ alias cdcol="cd $HOME/college/3-periodo-2021.1"
 alias cdcou="cd $HOME/courses"
 alias cdd="cd $HOME/desktop"
 alias cddo="cd $HOME/docs"
-alias cddot="cd $HOME/dotfiles"
+alias cd.="cd $HOME/dotfiles"
 alias cdp="cd $HOME/projects"
 alias cds="cd $HOME/studies"
 alias cdt="cd $HOME/templates"
@@ -52,6 +52,12 @@ alias notes="cb echo ⭕✅👉💧"
 alias taviao="cb echo \"¯\_(ツ)_/¯\""
 alias travessao="cb echo \"—\"" 
 alias puud="pwd && cb pwd"
+
+# dotfiles
+alias .d="code $DOTFILES"
+alias .tr="tmux source-file $DOTFILES/tmux/.tmux.conf"
+alias .vr="source $DOTFILES/nvim/init.vim"
+alias .zr="source $DOTFILES/zsh/.zshrc"
 
 # exit
 alias q="exit"
@@ -107,18 +113,8 @@ alias backup="chmod +x $HOME/.scripts/backup.sh && $HOME/.scripts/backup.sh"
 # shutdown
 alias off="shutdown -P now"
 
-# tmux
-alias t="tmux"
-alias .t="code $DOTFILES"
-alias .tr="echo \"YOU NEED TO BE INTO TMUX\" && t source-file $DOTFILES/tmux/.tmux.conf"
-
 # tree
 alias 3="tree -d"
-
-# vim
-alias v="nvim"
-alias .v="code $DOTFILES"
-alias .vr="source $DOTFILES/nvim/init.vim"
 
 # whatis
 alias is="whatis"
@@ -134,10 +130,6 @@ alias ys="y start"
 alias ysb="y storybook"
 alias yt="y test"
 alias ytw="y test:watch"
-
-# zsh
-alias .z="code $DOTFILES"
-alias .zr="source $DOTFILES/zsh/.zshrc"
 
 # ============================= KEYBINDINGS
 # https://github.com/gnunn1/tilix/issues/1498
