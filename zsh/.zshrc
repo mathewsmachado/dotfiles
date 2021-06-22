@@ -2,14 +2,15 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 export PATH="/opt/lampp/bin:$PATH"
 
 export DOTFILES="$HOME/dotfiles"
 
 # ============================= APPS CONFIG
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
 eval `dircolors $HOME/.themes/gnome-terminal/.dir_colors/dircolors`
 
 if [[ $TILIX_ID ]]; then
