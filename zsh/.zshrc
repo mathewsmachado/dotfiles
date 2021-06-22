@@ -103,6 +103,9 @@ alias rmnm="rm node_modules"
 # script
 alias backup="chmod +x $HOME/.scripts/backup.sh && $HOME/.scripts/backup.sh"
 
+# shutdown
+alias off="shutdown -P now"
+
 # tmux
 alias t="tmux"
 alias .t="code $DOTFILES"
