@@ -116,6 +116,9 @@ alias v="nvim"
 alias .v="code $DOTFILES"
 alias .vr="source $DOTFILES/nvim/init.vim"
 
+# whatis
+alias is="whatis"
+
 # yarn
 alias y="yarn"
 alias ya="y add"
