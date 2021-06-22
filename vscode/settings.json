@@ -26,7 +26,8 @@
   "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
 
   // style
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Dracula Pro",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code Retina, Consolas",
   "editor.fontLigatures": true,
 
@@ -61,9 +62,6 @@
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-
-  // Material Icon Theme
-  "workbench.iconTheme": "material-icon-theme",
 
   // Path Intellisense
   "javascript.suggest.paths": false,
