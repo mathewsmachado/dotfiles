@@ -92,7 +92,7 @@ alias ls="ls --color=tty"
 alias lsl="ls -l --color=tty"
 
 # localhost
-lh() { google-chrome http://localhost:$1 }
+lh() { xdg-open http://localhost:$1 }
 
 # mkdir
 alias mk="mkdir -p"
