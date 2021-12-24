@@ -1,21 +1,9 @@
 {
-  "quantity": 27,
+  "quantity": 19,
   "extensions": [
     {
       "name": "auto-rename-tag",
       "downloadName": "formulahendry.auto-rename-tag"
-    },
-    {
-      "name": "bracket-pair-colorizer",
-      "downloadName": "CoenraadS.bracket-pair-colorizer"
-    },
-    {
-      "name": "color-highlight",
-      "downloadName": "naumovs.color-highlight"
-    },
-    {
-      "name": "cpptools",
-      "downloadName": "ms-vscode.cpptools"
     },
     {
       "name": "EditorConfig",
@@ -30,22 +18,6 @@
       "downloadName": "eamodio.gitlens"
     },
     {
-      "name": "gruvbox",
-      "downloadName": "jdinhlife.gruvbox"
-    },
-    {
-      "name": "java",
-      "downloadName": "redhat.java"
-    },
-    {
-      "name": "java-generate-setters-getters",
-      "downloadName": "sohibe.java-generate-setters-getters"
-    },
-    {
-      "name": "LiveServer",
-      "downloadName": "ritwickdey.LiveServer"
-    },
-    {
       "name": "material-icon-theme",
       "downloadName": "PKief.material-icon-theme"
     },
@@ -54,16 +26,20 @@
       "downloadName": "christian-kohler.path-intellisense"
     },
     {
-      "name": "pdf",
-      "downloadName": "tomoki1207.pdf"
-    },
-    {
       "name": "prettier-vscode",
       "downloadName": "esbenp.prettier-vscode"
     },
     {
+      "name": "preview-pdf",
+      "downloadName": "analytic-signal.preview-pdf"
+    },
+    {
       "name": "px-to-rem",
       "downloadName": "sainoba.px-to-rem"
+    },
+    {
+      "name": "remotehub",
+      "downloadName": "GitHub.remotehub"
     },
     {
       "name": "theme-dracula-pro",
@@ -86,24 +62,16 @@
       "downloadName": "dbaeumer.vscode-eslint"
     },
     {
-      "name": "vscode-intelephense-client",
-      "downloadName": "bmewburn.vscode-intelephense-client"
-    },
-    {
-      "name": "vscode-markdownlint",
-      "downloadName": "DavidAnson.vscode-markdownlint"
-    },
-    {
-      "name": "vscode-scss",
-      "downloadName": "mrmlnc.vscode-scss"
-    },
-    {
       "name": "vscode-styled-components",
-      "downloadName": "jpoissonnier.vscode-styled-components"
+      "downloadName": "styled-components.vscode-styled-components"
     },
     {
       "name": "vscode-wakatime",
       "downloadName": "WakaTime.vscode-wakatime"
+    },
+    {
+      "name": "vscode-wrap-console-log",
+      "downloadName": "midnightsyntax.vscode-wrap-console-log"
     },
     {
       "name": "vscodeintellicode",
