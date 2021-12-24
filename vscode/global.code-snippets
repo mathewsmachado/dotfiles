@@ -29,7 +29,7 @@
   "html tag/jsx fragment": {
     "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "fragg",
-    "body": ["<$0>", "</$0>"]
+    "body": ["<$0>", "</>"]
   },
   "function statement": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
