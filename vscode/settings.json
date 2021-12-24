@@ -36,6 +36,8 @@
   "typescript.suggest.classMemberSnippets.enabled": true,
   "javascript.suggest.classMemberSnippets.enabled": true,
 
+  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+  
   // search
   "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
 
