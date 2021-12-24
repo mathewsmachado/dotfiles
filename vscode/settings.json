@@ -33,6 +33,9 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
+  "typescript.suggest.classMemberSnippets.enabled": true,
+  "javascript.suggest.classMemberSnippets.enabled": true,
+
   // search
   "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
 
