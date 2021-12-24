@@ -19,6 +19,8 @@
   "explorer.confirmDragAndDrop": false,
 
   // languages
+  "html.completion.attributeDefaultValue": "singlequotes",
+
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
 
