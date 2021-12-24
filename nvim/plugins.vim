@@ -1,9 +1,9 @@
-call plug#begin('~/.local/share/nvim/plugins')
+call plug#begin('~/.config/nvim/autoload')
 
-Plug '~/.local/share/nvim/plugins/dracula_pro'
+Plug '~/.config/nvim/autoload/dracula'
 
 call plug#end()
 
 let g:dracula_colorterm = 0
 
-colorscheme dracula_pro
+colorscheme dracula
