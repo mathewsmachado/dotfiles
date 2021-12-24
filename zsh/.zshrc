@@ -52,9 +52,6 @@ alias puud="pwd && cb pwd"
 alias d="sudo docker"
 
 # dotfiles
-alias .d="code $HOME/dotfiles"
-alias .tr="tmux source-file $HOME/dotfiles/tmux/.tmux.conf"
-alias .vr="source $HOME/dotfiles/nvim/init.vim"
 alias .zr="source $HOME/dotfiles/zsh/.zshrc"
 
 # exit
