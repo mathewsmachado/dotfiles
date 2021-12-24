@@ -1,5 +1,6 @@
 {
-  // ============================= JS/TS GENERAL
+  // ============================= JAVASCRIPT/TYPESCRIPT
+  // General
   "console.log": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "clg",
@@ -26,14 +27,14 @@
     "body": ["import $0 from '$1';"]
   },
 
-  // ============================= NODE
+  // Node
   "commonjs import": {
     "scope": "javascript,typescript",
     "prefix": "req",
     "body": ["require('$0');"]
   },
 
-  // ============================= REACT
+  // React
   "react self-closed fragment": {
     "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "frag",
@@ -45,12 +46,11 @@
     "body": ["<$0>", "</>"]
   },
 
-  // ============================= STYLED COMPONENTS
+  // Styled Components
   "styled destructuring": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "deststyled",
-    "body": ["  ${({ theme }) => css`", "    $0", "  `};"],
-    "description": "styled destructuring"
+    "body": ["  ${({ theme }) => css`", "    $0", "  `};"]
   },
   "styled tag": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
@@ -66,11 +66,10 @@
   "styled components modifier": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "modifier",
-    "body": ["  $0: (theme: DefaultTheme) => css`", "  ", "  `,"],
-    "description": "styled components modifier"
+    "body": ["  $0: (theme: DefaultTheme) => css`", "  ", "  `,"]
   },
 
-  // JEST
+  // Jest
   "jest 'it' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "itskip",
@@ -88,7 +87,7 @@
     ]
   },
 
-  // DISABLE TOOLS
+  // Disable Tools
   "eslint disable": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "eslint",
