@@ -22,6 +22,12 @@
   /* unbind */ { "key": "ctrl+k ctrl+\\", "command": "-workbench.action.splitEditorOrthogonal" },
   /* bind */ { "key": "ctrl+alt+r", "command": "workbench.action.splitEditor" },
   /* bind */ { "key": "ctrl+alt+d", "command": "workbench.action.splitEditorOrthogonal" },
+  
+  // PAGE UP
+  { "key": "pageup", "command": "cursorMove", "args": { "to": "up", "by": "line", "value": 5 }, "when": "editorTextFocus" },
+
+  // PAGE DOWN
+  { "key": "pagedown", "command": "cursorMove", "args": { "to": "down", "by": "line", "value": 5 }, "when": "editorTextFocus" },
 
   // ============================= EXPLORER
   // OPEN/CLOSE EXPLORER
