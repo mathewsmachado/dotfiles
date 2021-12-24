@@ -83,6 +83,10 @@
   // Toggle Semicolon
   /* bind */ { "key": "ctrl+;", "command": "extension.toggleSemicolon" },
   /* bind */ { "key": "ctrl+,", "command": "extension.toggleComma" },
+  
+  // Wrap Console Log
+  /* unbind */ { "key": "ctrl+alt+w down", "command": "-console.log.wrap.down", "when": "editorTextFocus" },
+  /* bind */ { "key": "ctrl+l", "command": "console.log.wrap.down", "when": "editorTextFocus" },
 
   { "none": "none", "key": "none", "command": "none" }
 ]
