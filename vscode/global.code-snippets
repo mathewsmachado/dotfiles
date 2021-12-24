@@ -107,5 +107,12 @@
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "tsnocheck",
     "body": ["// @ts-nocheck"]
+  },
+
+  // ============================= Markdown
+  "markdown link": {
+    "scope": "markdown",
+    "prefix": "link",
+    "body": ["[$0](##)"]
   }
 }
