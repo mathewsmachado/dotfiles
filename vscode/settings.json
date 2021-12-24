@@ -69,6 +69,22 @@
   "gitlens.defaultTimeFormat": "HH:mm",
   "gitlens.statusBar.enabled": false,
 
+  // Material Icon
+  "material-icon-theme.folders.associations": {
+    "domain": "ci",
+    "entities": "keys",
+    "value-objects": "aurelia",
+    "use-cases": "flow",
+    "interface-adapters": "custom",
+    "external": "global"
+    // jinja
+    // guard
+    // rules
+    // global
+    // animation
+    // keys
+  },
+
   // Path Intellisense
   "javascript.suggest.paths": false,
   "typescript.suggest.paths": false,
