@@ -2,7 +2,7 @@
 
 **Description**: Z shell configuration file.
 
-**Setup**: ln -s $DOTFILES/zsh/.zshrc $HOME
+**Setup**: ln -s ~/dotfiles/zsh/.zshrc ~/
 
 **Obs**: Aliases must be defined after oh-my-zshell source.
 
