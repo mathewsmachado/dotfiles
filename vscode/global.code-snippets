@@ -63,6 +63,12 @@
       "`;"
     ]
   },
+  "styled components modifier": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "modifier",
+    "body": ["  $0: (theme: DefaultTheme) => css`", "  ", "  `,"],
+    "description": "styled components modifier"
+  },
 
   // JEST
   "jest 'it' block": {
