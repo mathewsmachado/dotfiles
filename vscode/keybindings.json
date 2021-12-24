@@ -70,11 +70,14 @@
   // OPEN LINK
   /* unbind */ { "key": "f12", "command": "-editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
   /* bind */ { "key": "ctrl+shift+c", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
-
+  
   // SHOW HOVER
   /* unbind */ { "key": "ctrl+h", "command": "-editor.action.startFindReplaceAction", "when": "editorFocus || editorIsOpen" },
   /* unbind */ { "key": "ctrl+k ctrl+i", "command": "-editor.action.showHover", "when": "editorTextFocus" },
   /* bind */ { "key": "ctrl+h", "command": "editor.action.showHover", "when": "editorTextFocus" },
+  
+  // ============================= WORKBENCH
+  /* unbind */ { "key": "ctrl+q", "command": "-workbench.action.quit" },
 
   // ============================= EXTENSIONS
   // Toggle Semicolon
