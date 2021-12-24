@@ -2,6 +2,7 @@
   // ============================= NATIVE
   // editor
   "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
   "editor.tabSize": 2,
 
   "editor.minimap.enabled": false,
