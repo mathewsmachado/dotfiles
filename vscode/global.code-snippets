@@ -45,6 +45,19 @@
     "body": ["<$0>", "</>"]
   },
 
+  // ============================= STYLED COMPONENTS
+  "styled tag": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "tagstyled",
+    "body": [
+      "export const $0 = styled.div`",
+      "  ${({ theme }) => css`",
+      "",
+      "  `}",
+      "`;"
+    ]
+  },
+
   // JEST
   "jest 'it' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
