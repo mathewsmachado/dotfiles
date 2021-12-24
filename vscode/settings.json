@@ -20,9 +20,11 @@
 
   // languages
   "html.completion.attributeDefaultValue": "singlequotes",
-
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
+
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
