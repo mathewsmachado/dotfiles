@@ -6,7 +6,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # ============================= APPS CONFIG
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-if [[ $TILIX_ID ]]; then
+if [[ $TILIX_ID ]] || [ $VTE_VERSION ]; then
   source /etc/profile.d/vte.sh
 fi
 
