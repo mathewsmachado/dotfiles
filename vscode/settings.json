@@ -56,9 +56,6 @@
   // ============================= EXTENSIONS
   "extensions.ignoreRecommendations": true,
 
-  // Bracket Pair Colorizer
-  "editor.matchBrackets": "never",
-
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
