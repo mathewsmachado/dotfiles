@@ -122,6 +122,7 @@ alias is="whatis"
 alias y="yarn"
 alias ya="y add"
 alias yad="y add --dev"
+yat() { y add $1; yad @types/$1 }
 alias yb="y build"
 alias yd="y dev"
 alias yr="y remove"
