@@ -1,10 +1,11 @@
+const os = require('os');
+const child_process = require('child_process');
 const { promisify } = require('util');
-const exec = promisify(require('child_process').exec);
 
-async function getPathWithSystemEnvVar(path) {
-  const { stdout } = await exec(`echo ${path}`);
+const EXTENSIONS_PATH = `${
+  os.userInfo().homedir
+}/dotfiles/vscode/extensions.json`;
 
-  return stdout;
-}
+const exec = promisify(child_process.exec);
 
-module.exports = { exec, getPathWithSystemEnvVar };
+module.exports = { EXTENSIONS_PATH, exec };
