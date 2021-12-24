@@ -109,9 +109,6 @@ alias rm="rm -rf"
 alias rmgit="rm .git"
 alias rmnm="rm node_modules"
 
-# script
-alias backup="chmod +x $HOME/.scripts/backup.sh && $HOME/.scripts/backup.sh"
-
 # shutdown
 alias off="shutdown -P now"
 
