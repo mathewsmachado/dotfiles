@@ -29,15 +29,17 @@ alias c.="code ."
 alias c.r="c. -r"
 
 # cd
-alias cdcol="cd $HOME/college/3-periodo-2021.1"
-alias cdcou="cd $HOME/courses"
-alias cdd="cd $HOME/desktop"
-alias cddo="cd $HOME/docs"
-alias cd.="cd $HOME/dotfiles"
-alias cdp="cd $HOME/projects"
-alias cds="cd $HOME/studies"
-alias cdt="cd $HOME/templates"
-alias cdw="cd $HOME/work"
+alias cdcol="cd ~/college/4-periodo-2022.1"
+alias cdcou="cd ~/courses"
+alias cdd="cd ~/desktop"
+alias cddo="cd ~/documents"
+alias cddocs="cd ~/docs"
+alias cddot="cd ~/dotfiles"
+alias cdp="cd ~/projects"
+alias cds="cd ~/studies"
+alias cdsc="cd ~/scripts"
+alias cdt="cd ~/templates"
+alias cdw="cd ~/work"
 
 # clipboard
 cb() { $@ | xclip -sel clip } # do not accept 'aliased' params
