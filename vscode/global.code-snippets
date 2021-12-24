@@ -71,5 +71,10 @@
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "tsignore",
     "body": ["// @ts-ignore"]
+  },
+  "typescript no check": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "tsnocheck",
+    "body": ["// @ts-nocheck"]
   }
 }
