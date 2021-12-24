@@ -52,7 +52,7 @@ alias puud="pwd && cb pwd"
 alias d="sudo docker"
 
 # dotfiles
-alias .zr="source $HOME/dotfiles/zsh/.zshrc"
+alias zr="source ~/dotfiles/zsh/.zshrc"
 
 # exit
 alias q="exit"
