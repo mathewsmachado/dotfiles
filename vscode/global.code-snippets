@@ -46,6 +46,12 @@
   },
 
   // ============================= STYLED COMPONENTS
+  "styled destructuring": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "deststyled",
+    "body": ["  ${({ theme }) => css`", "    $0", "  `};"],
+    "description": "styled destructuring"
+  },
   "styled tag": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "tagstyled",
