@@ -1,35 +1,9 @@
 {
+  // ============================= JS/TS GENERAL
   "console.log": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "clg",
     "body": ["console.log($0)"]
-  },
-  "jest 'describe' block": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "desc",
-    "body": [
-      "describe('$0', () => {",
-      "  it('should', () => {",
-      "    expect(2).toBe(2);",
-      "  });",
-      "});"
-    ]
-  },
-  "eslint disable": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "eslint",
-    "body": ["/* eslint-disable $0 */"]
-  },
-
-  "react self-closed fragment": {
-    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "frag",
-    "body": ["<$0 />"]
-  },
-  "html tag/jsx fragment": {
-    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "fragg",
-    "body": ["<$0>", "</>"]
   },
   "function statement": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
@@ -51,9 +25,41 @@
     "prefix": "impd",
     "body": ["import $0 from '$1';"]
   },
+
+  // ============================= REACT
+  "react self-closed fragment": {
+    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "frag",
+    "body": ["<$0 />"]
+  },
+  "react fragment": {
+    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "fragg",
+    "body": ["<$0>", "</>"]
+  },
+
+  // JEST
   "jest 'it' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "its",
-    "body": ["it('should $0', () => {", "  expect(2).toBe(2);", "});"]
+    "prefix": "itskip",
+    "body": ["it.skip('should $0', () => {", "  expect(2).toBe(2);", "});"]
+  },
+  "jest 'describe' block": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "desc",
+    "body": [
+      "describe('$0', () => {",
+      "  it.skip('should', () => {",
+      "    expect(2).toBe(2);",
+      "  });",
+      "});"
+    ]
+  },
+
+  // DISABLE TOOLS
+  "eslint disable": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "eslint",
+    "body": ["/* eslint-disable $0 */"]
   }
 }
