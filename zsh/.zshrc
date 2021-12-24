@@ -100,7 +100,6 @@ md() { mk $1 && cd $1 }
 # run
 runc() { gcc "$1.c" -o $1; "./$1"; rm $1 }
 runj() { javac "$1.java"; java $1; rm ./**/*.class }
-runp() { sudo /opt/lampp/lampp "$1apache"; sudo /opt/lampp/lampp "$1mysql" }
 
 # rm
 alias rm="rm -rf"
