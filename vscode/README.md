@@ -6,13 +6,13 @@
 
 **Description**: Vscode configuration file.
 
-**Setup**: ln -s $DOTFILES/vscode/settings.json $HOME/.config/Code/User
+**Setup**: ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User
 
 ## keybindings.json
 
 **Description**: Vscode keybindings file.
 
-**Setup**: ln -s $DOTFILES/vscode/keybindings.json $HOME/.config/Code/User
+**Setup**: ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User
 
 **Obs**: Since the important things on this file are: the name of the command, if it was binded/unbinded and the key, the 80 characters rule won't be respected to improve the readability of the things said before.
 
@@ -20,7 +20,7 @@
 
 **Description**: Vscode snippets file.
 
-**Setup**: ln -s $DOTFILES/vscode/global.code-snippets $HOME/.config/Code/User/snippets
+**Setup**: ln -s ~/dotfiles/vscode/global.code-snippets ~/.config/Code/User/snippets
 
 **Obs**: Snippets are ordered by 'prefix' key.
 
@@ -48,17 +48,17 @@
 
 **Description**: Vscode extensions list file.
 
-**Setup to install extensions from file**: node $DOTFILES/vscode/scripts/installExtensionsFromFile.js
+**Setup to install extensions from file**: node ~/dotfiles/vscode/scripts/installExtensionsFromFile.js
 
-**Setup to update extensions file**: node $DOTFILES/vscode/scripts/updateExtensionsFile.js
+**Setup to update extensions file**: node ~/dotfiles/vscode/scripts/updateExtensionsFile.js
 
 **Obs**:
 
 - Install extensions from file before update the extensions file.
 - There are some places that stores the user's extensions on vscode, but none of them are trustable.
 
-  - The first place is the 'extensions' folder, that is under $HOME/.vscode, but it isn't trustable because it keeps extensions that were already uninstalled.
+  - The first place is the 'extensions' folder, that is under ~/.vscode, but it isn't trustable because it keeps extensions that were already uninstalled.
 
-  - The second place is a file called 'user', that is stored under $HOME/.config/Code/CachedExtensions, but it isn't trustable because it disappears for sometime every time you install an extension.
+  - The second place is a file called 'user', that is stored under ~/.config/Code/CachedExtensions, but it isn't trustable because it disappears for sometime every time you install an extension.
 
   - To document my extensions, I developed a Node.js script that runs a vscode command that lists the installed extensions, and then stores it into a JSON file. There're two scripts: one that stores the extensions into the file, and one that picks the extensions from this file and install them in vscode.
