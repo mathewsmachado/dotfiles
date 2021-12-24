@@ -3,8 +3,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export NVM_DIR="$HOME/.nvm"
 
-export PATH="/opt/lampp/bin:$PATH"
-
 # ============================= APPS CONFIG
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
