@@ -26,6 +26,13 @@
     "body": ["import $0 from '$1';"]
   },
 
+  // ============================= NODE
+  "commonjs import": {
+    "scope": "javascript,typescript",
+    "prefix": "req",
+    "body": ["require('$0');"]
+  },
+
   // ============================= REACT
   "react self-closed fragment": {
     "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
