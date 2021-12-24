@@ -112,6 +112,9 @@ alias rmnm="rm node_modules"
 # shutdown
 alias off="shutdown -P now"
 
+# tlp
+alias tlpt="tlp-stat -t"
+
 # tree
 alias 3="tree -d"
 
