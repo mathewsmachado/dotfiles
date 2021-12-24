@@ -75,7 +75,7 @@ alias gr="g remote -v"
 alias gs="g status -u"
 
 # github
-alias ghme="xdg-open https://github.com/MathewsMachado"
+alias ghme="xdg-open https://github.com/mathewsmachado"
 
 # kill: https://stackoverflow.com/questions/11583562/how-to-kill-a-process-running-on-particular-port-in-linux
 killport() { kill -9 $(lsof -t -i:$1) }
