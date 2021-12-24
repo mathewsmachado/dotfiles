@@ -69,10 +69,6 @@
   "gitlens.defaultTimeFormat": "HH:mm",
   "gitlens.statusBar.enabled": false,
 
-  // Live Server
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-
   // Path Intellisense
   "javascript.suggest.paths": false,
   "typescript.suggest.paths": false,
