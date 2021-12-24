@@ -47,6 +47,9 @@
   "editor.fontFamily": "Fira Code Retina, Consolas",
   "editor.fontLigatures": true,
 
+  // window
+  "window.zoomLevel": -1,
+
   // ============================= EXTENSIONS
   "extensions.ignoreRecommendations": true,
 
