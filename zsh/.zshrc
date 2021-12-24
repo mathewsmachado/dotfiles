@@ -48,6 +48,9 @@ alias taviao="cb echo \"¯\_(ツ)_/¯\""
 alias travessao="cb echo \"—\"" 
 alias puud="pwd && cb pwd"
 
+# df
+alias dfp8="df -h | egrep \"(filesystem|p8)\" -i"
+
 # docker
 alias d="sudo docker"
 
