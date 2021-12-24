@@ -66,5 +66,10 @@
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "prettier",
     "body": ["// prettier-ignore"]
+  },
+  "typescript ignore": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "tsignore",
+    "body": ["// @ts-ignore"]
   }
 }
