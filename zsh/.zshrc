@@ -48,6 +48,9 @@ alias taviao="cb echo \"¯\_(ツ)_/¯\""
 alias travessao="cb echo \"—\"" 
 alias puud="pwd && cb pwd"
 
+# docker
+alias d="sudo docker"
+
 # dotfiles
 alias .d="code $HOME/dotfiles"
 alias .tr="tmux source-file $HOME/dotfiles/tmux/.tmux.conf"
