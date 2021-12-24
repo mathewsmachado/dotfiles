@@ -69,15 +69,6 @@
   "gitlens.defaultTimeFormat": "HH:mm",
   "gitlens.statusBar.enabled": false,
 
-  // Language Support For Java
-  "java.home": "/usr/lib/jvm/java-14-openjdk-amd64",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
