@@ -61,5 +61,10 @@
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "eslint",
     "body": ["/* eslint-disable $0 */"]
+  },
+  "prettier ignore": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "prettier",
+    "body": ["// prettier-ignore"]
   }
 }
