@@ -1,5 +1,5 @@
 {
-  "quantity": 19,
+  "quantity": 20,
   "extensions": [
     {
       "name": "auto-rename-tag",
@@ -40,6 +40,10 @@
     {
       "name": "remotehub",
       "downloadName": "GitHub.remotehub"
+    },
+    {
+      "name": "template-string-converter",
+      "downloadName": "meganrogge.template-string-converter"
     },
     {
       "name": "theme-dracula-pro",
