@@ -66,6 +66,11 @@
   /* unbind */ { "key": "ctrl+k s", "command": "-workbench.action.files.saveAll" },
   /* bind */ { "key": "ctrl+s", "command": "workbench.action.files.saveAll" },
   
+  // COPY RELATIVE PATH
+  /* unbind */ { "key": "ctrl+k ctrl+p", "command": "-workbench.action.showAllEditors" },
+  /* unbind */ { "key": "ctrl+alt+c", "command": "-copyFilePath", "when": "!editorFocus" },
+  /* bind */ { "key": "ctrl+k ctrl+p", "command": "copyRelativeFilePath" /* "command": "copyFilePath" */ },
+
   // ============================= MOUSE
   // OPEN LINK
   /* unbind */ { "key": "f12", "command": "-editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
