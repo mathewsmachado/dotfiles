@@ -77,18 +77,12 @@
   "jest 'it' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "itskip",
-    "body": ["it.skip('should $0', () => {", "  expect(2).toBe(2);", "});"]
+    "body": ["it.skip('should $0', () => {});"]
   },
   "jest 'describe' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "desc",
-    "body": [
-      "describe('$0', () => {",
-      "  it.skip('should', () => {",
-      "    expect(2).toBe(2);",
-      "  });",
-      "});"
-    ]
+    "body": ["describe('$0', () => {", "  it.skip('should ', () => {});", "});"]
   },
 
   // Disable Tools
