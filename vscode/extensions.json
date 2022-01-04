@@ -66,6 +66,10 @@
       "downloadName": "styled-components.vscode-styled-components"
     },
     {
+      "name": "vscode-tailwindcss",
+      "downloadName": "bradlc.vscode-tailwindcss"
+    },
+    {
       "name": "vscode-wakatime",
       "downloadName": "WakaTime.vscode-wakatime"
     },
