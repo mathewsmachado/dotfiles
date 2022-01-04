@@ -55,6 +55,7 @@ alias dfp8="df -h | egrep \"(filesystem|p8)\" -i"
 alias d="sudo docker"
 
 # docs
+alias commits="cat ~/docs/commits.txt"
 alias statuscode="cat ~/docs/status-code.txt"
 
 # dotfiles
