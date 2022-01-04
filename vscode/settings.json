@@ -47,9 +47,6 @@
   "editor.fontFamily": "Fira Code Retina, Consolas",
   "editor.fontLigatures": true,
 
-  // window
-  "window.zoomLevel": -1,
-
   // workbench
   "workbench.activityBar.visible": false,
 
@@ -102,5 +99,23 @@
   "prettier.semi": true,
   "prettier.singleQuote": true,
 
-  "none": "none"
+  // Tailwind CSS IntelliSense
+  "scss.validate": false,
+  "editor.quickSuggestions": { "strings": true },
+  "editor.autoClosingQuotes": "always",
+  "tailwindCSS.colorDecorators": false,
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+
+  "none": "none",
+  "window.zoomLevel": -1
 }
