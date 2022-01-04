@@ -26,6 +26,10 @@
     "prefix": "impd",
     "body": ["import $0 from '$1';"]
   },
+  "Object.assign": {
+    "prefix": "assign",
+    "body": ["Object.assign(this, props);"]
+  },
 
   // Node
   "commonjs import": {
