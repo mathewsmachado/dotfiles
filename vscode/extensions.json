@@ -1,5 +1,5 @@
 {
-  "quantity": 20,
+  "quantity": 21,
   "extensions": [
     {
       "name": "auto-rename-tag",
@@ -80,6 +80,10 @@
     {
       "name": "vscodeintellicode",
       "downloadName": "VisualStudioExptTeam.vscodeintellicode"
+    },
+    {
+      "name": "vsliveshare",
+      "downloadName": "ms-vsliveshare.vsliveshare"
     }
   ]
 }
