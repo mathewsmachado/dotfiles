@@ -30,6 +30,10 @@
     "prefix": "assign",
     "body": ["Object.assign(this, props);"]
   },
+  "comment block": {
+    "prefix": "cmmb",
+    "body": ["/*", "$0", "*/"]
+  },
 
   // Node
   "commonjs import": {
