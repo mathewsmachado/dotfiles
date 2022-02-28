@@ -64,12 +64,13 @@ alias zr="source ~/dotfiles/zsh/.zshrc"
 
 # exit
 alias q="exit"
-
+ 
 # git
 alias g="git"
-alias ga="echo -n \"Branch: \" && g branch --show-current && echo \"Don't commit on MASTER\" && g add"
+alias gs="g status"
+alias ga="g add && gs"
 alias ga.="ga ."
-alias gb="g branch -v"
+alias gb="g branch"
 alias gc="g commit -m"
 alias gck="g checkout"
 alias gd="g diff"
@@ -80,7 +81,6 @@ alias gpl="g pull"
 alias gps="g push"
 alias gpsom="gps origin main"
 alias gr="g remote -v"
-alias gs="g status -u"
 
 # github
 alias ghme="xdg-open https://github.com/mathewsmachado"
