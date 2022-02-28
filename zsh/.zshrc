@@ -68,7 +68,7 @@ alias q="exit"
 # git
 alias g="git"
 alias gs="g status"
-alias ga="g add && gs"
+ga() { g add $@; gs }
 alias ga.="ga ."
 alias gb="g branch"
 alias gc="g commit -m"
