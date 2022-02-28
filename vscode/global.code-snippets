@@ -44,12 +44,12 @@
 
   // React
   "react self-closed fragment": {
-    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "html,javascript,javascriptreact,typescriptreact",
     "prefix": "frag",
     "body": ["<$0 />"]
   },
   "react fragment": {
-    "scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "html,javascript,javascriptreact,typescriptreact",
     "prefix": "fragg",
     "body": ["<$0>", "</>"]
   },
