@@ -81,6 +81,7 @@ alias gpl="g pull"
 alias gps="g push"
 alias gpsom="gps origin main"
 alias gr="g remote -v"
+grest() { g restore $@ --staged; gs }
 
 # github
 alias ghme="xdg-open https://github.com/mathewsmachado"
