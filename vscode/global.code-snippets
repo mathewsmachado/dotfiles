@@ -53,6 +53,11 @@
     "prefix": "fragg",
     "body": ["<$0>", "</>"]
   },
+  "useEffect": {
+    "scope": "javascript,javascriptreact,typescriptreact",
+    "prefix": "useeffect",
+    "body": ["useEffect(() => console.log($0), [$0]);"]
+  },
 
   // Styled Components
   "styled destructuring": {
