@@ -33,14 +33,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "typescript.suggest.classMemberSnippets.enabled": true,
-  "javascript.suggest.classMemberSnippets.enabled": true,
-
-  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
-
-  // search
-  "search.exclude": { "**/package-lock.json": true, "**/yarn.lock": true },
-
   // style
   "workbench.colorTheme": "Dracula Pro",
   "workbench.iconTheme": "material-icon-theme",
@@ -115,7 +107,19 @@
     "typescript": "javascript",
     "typescriptreact": "javascript"
   },
+  //////
+  // "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  // "javascript.preferences.jsxAttributeCompletionStyle": "auto",
 
+  // search
+  // "search.exclude": {
+  //   "**/package-lock.json": true,
+  //   "**/yarn.lock": true,
+  //   "**/.next": true,
+  //   "**/dist": true,
+  //   "**/build": true
+  // },
+  // "diffEditor.ignoreTrimWhitespace": false,
   "none": "none",
   "window.zoomLevel": -1
 }
