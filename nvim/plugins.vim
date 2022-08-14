@@ -1,6 +1,6 @@
 call plug#begin('~/.config/nvim/autoload')
 
-Plug '~/.config/nvim/autoload/dracula'
+Plug 'dracula/vim'
 
 call plug#end()
 
