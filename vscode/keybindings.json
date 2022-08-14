@@ -93,5 +93,11 @@
   /* unbind */ { "key": "ctrl+alt+w down", "command": "-console.log.wrap.down", "when": "editorTextFocus" },
   /* bind */ { "key": "ctrl+l", "command": "console.log.wrap.down", "when": "editorTextFocus" },
 
+  /* unbind */ { "key": "ctrl+alt+w ctrl+alt+down", "command": "-console.log.wrap.down.prefix", "when": "editorTextFocus" },
+  /* bind */ { "key": "ctrl+shift+l", "command": "console.log.wrap.down.prefix", "when": "editorTextFocus" },
+
+  /* unbind */ { "key": "ctrl+shift+l", "command": "-editor.action.selectHighlights", "when": "editorFocus" },
+  /* bind */ { "key": "ctrl+alt+l", "command": "editor.action.selectHighlights", "when": "editorFocus" },
+
   { "none": "none", "key": "none", "command": "none" }
 ]
