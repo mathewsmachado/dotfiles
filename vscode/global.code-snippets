@@ -28,7 +28,7 @@
   },
   "Object.assign": {
     "prefix": "assign",
-    "body": ["Object.assign(this, props);"]
+    "body": ["Object.assign(this, params);"]
   },
   "comment block": {
     "prefix": "cmmb",
@@ -86,12 +86,12 @@
   "jest 'it' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "itskip",
-    "body": ["it.skip('should $0', () => {});"]
+    "body": ["it.skip('should $0', async () => {});"]
   },
   "jest 'describe' block": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "prefix": "desc",
-    "body": ["describe('$0', () => {", "  it.skip('should ', () => {});", "});"]
+    "body": ["describe('given that $0', () => {", "  it.skip('should ', async () => {});", "});"]
   },
 
   // Disable Tools
@@ -107,12 +107,12 @@
   },
   "typescript ignore": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "tsignore",
+    "prefix": "tsig",
     "body": ["// @ts-ignore"]
   },
   "typescript no check": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "tsnocheck",
+    "prefix": "tsno",
     "body": ["// @ts-nocheck"]
   },
 

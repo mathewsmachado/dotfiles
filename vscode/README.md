@@ -20,7 +20,7 @@
 
 **Description**: Vscode snippets file.
 
-**Setup**: ln -s ~/dotfiles/vscode/global.code-snippets ~/.config/Code/User/snippets
+**Setup**: ln -s ~/dotfiles/vscode/global.code-snippets ~/.config/Code/User/global.code-snippets
 
 **Obs**: Snippets are ordered by 'prefix' key.
 
