@@ -9,9 +9,13 @@
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "alt",
-  "editor.rulers": [80],
+  "editor.rulers": [80, 120],
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
 
   // explorer
   "explorer.compactFolders": false,
@@ -79,6 +83,7 @@
   "typescript.suggest.paths": false,
 
   // Prettier
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -90,36 +95,7 @@
   "prettier.jsxSingleQuote": true,
   "prettier.semi": true,
   "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
 
-  // Tailwind CSS IntelliSense
-  "scss.validate": false,
-  "editor.quickSuggestions": { "strings": true },
-  "editor.autoClosingQuotes": "always",
-  "tailwindCSS.colorDecorators": false,
-  "tailwindCSS.experimental.classRegex": [
-    "tw`([^`]*)", // tw`...`
-    "tw=\"([^\"]*)", // <div tw="..." />
-    "tw={\"([^\"}]*)", // <div tw={"..."} />
-    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
-    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
-  ],
-  "tailwindCSS.includeLanguages": {
-    "typescript": "javascript",
-    "typescriptreact": "javascript"
-  },
-  //////
-  // "javascript.preferences.jsxAttributeCompletionStyle": "none",
-  // "javascript.preferences.jsxAttributeCompletionStyle": "auto",
-
-  // search
-  // "search.exclude": {
-  //   "**/package-lock.json": true,
-  //   "**/yarn.lock": true,
-  //   "**/.next": true,
-  //   "**/dist": true,
-  //   "**/build": true
-  // },
-  // "diffEditor.ignoreTrimWhitespace": false,
-  "none": "none",
-  "window.zoomLevel": -1
+  "none": "none"
 }
