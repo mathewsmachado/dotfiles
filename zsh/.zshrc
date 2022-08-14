@@ -78,8 +78,8 @@ alias gl="g log --oneline --decorate"
 alias glc="gl | wc -l"
 alias gm="g merge"
 alias gla="gl --all"
-alias gpl="g pull"
-alias gps="g push"
+gpl() { g pull origin $(g rev-parse --abbrev-ref HEAD) }
+gps() { g push origin $(g rev-parse --abbrev-ref HEAD) }
 alias gpsom="gps origin main"
 alias gr="g remote -v"
 grest() { g restore $@ --staged; gs }
