@@ -107,6 +107,9 @@ lh() { xdg-open http://localhost:$1 }
 alias mk="mkdir -p"
 md() { mk $1 && cd $1 }
 
+# pr
+alias pr="cp ~/templates/pr-template.md ."
+
 # run
 runc() { gcc "$1.c" -o $1; "./$1"; rm $1 }
 runj() { javac "$1.java"; java $1; rm ./**/*.class }
