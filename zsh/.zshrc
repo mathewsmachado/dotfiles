@@ -10,6 +10,8 @@ if [[ $TILIX_ID ]] || [ $VTE_VERSION ]; then
   source /etc/profile.d/vte.sh
 fi
 
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # ============================= ZSH CONFIG
 COMPLETION_WAITING_DOTS="true"
 plugins=(zsh-autosuggestions zsh-syntax-highlighting)
