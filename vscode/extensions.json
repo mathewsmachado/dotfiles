@@ -1,9 +1,17 @@
 {
-  "quantity": 21,
+  "quantity": 26,
   "extensions": [
     {
       "name": "auto-rename-tag",
       "downloadName": "formulahendry.auto-rename-tag"
+    },
+    {
+      "name": "azure-account",
+      "downloadName": "ms-vscode.azure-account"
+    },
+    {
+      "name": "azurite",
+      "downloadName": "Azurite.azurite"
     },
     {
       "name": "EditorConfig",
@@ -16,6 +24,10 @@
     {
       "name": "gitlens",
       "downloadName": "eamodio.gitlens"
+    },
+    {
+      "name": "LiveServer",
+      "downloadName": "ritwickdey.LiveServer"
     },
     {
       "name": "material-icon-theme",
@@ -38,6 +50,10 @@
       "downloadName": "sainoba.px-to-rem"
     },
     {
+      "name": "remote-repositories",
+      "downloadName": "ms-vscode.remote-repositories"
+    },
+    {
       "name": "remotehub",
       "downloadName": "GitHub.remotehub"
     },
@@ -58,16 +74,20 @@
       "downloadName": "XadillaX.viml"
     },
     {
+      "name": "vscode-azureresourcegroups",
+      "downloadName": "ms-azuretools.vscode-azureresourcegroups"
+    },
+    {
+      "name": "vscode-edit-csv",
+      "downloadName": "janisdd.vscode-edit-csv"
+    },
+    {
       "name": "vscode-eslint",
       "downloadName": "dbaeumer.vscode-eslint"
     },
     {
       "name": "vscode-styled-components",
       "downloadName": "styled-components.vscode-styled-components"
-    },
-    {
-      "name": "vscode-tailwindcss",
-      "downloadName": "bradlc.vscode-tailwindcss"
     },
     {
       "name": "vscode-wakatime",
