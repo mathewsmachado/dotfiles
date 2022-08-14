@@ -52,8 +52,8 @@ alias puud="pwd && cb pwd"
 alias dfp8="df -h | egrep \"(filesystem|p8)\" -i"
 
 # docker
-alias d="sudo docker"
-alias dc="sudo docker-compose"
+alias d="docker"
+alias dc="docker-compose"
 
 # docs
 alias commits="cat ~/docs/commits.txt"
