@@ -95,7 +95,7 @@
   "prettier.jsxSingleQuote": true,
   "prettier.semi": true,
   "prettier.singleQuote": true,
-  "prettier.printWidth": 80,
+  "prettier.printWidth": 120,
 
   "none": "none"
 }
