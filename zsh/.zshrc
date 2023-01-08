@@ -56,6 +56,7 @@ alias dfp8="df -h | egrep \"(filesystem|p8)\" -i"
 # docker
 alias d="docker"
 alias dc="docker-compose"
+dpurge(){ docker rm -vf $(docker ps -aq); docker rmi -f $(docker images -aq) }
 
 # docs
 alias commits="cat ~/docs/commits.txt"
