@@ -16,16 +16,6 @@
     "prefix": "iife",
     "body": ["(async () => {", "  $0", "})();"]
   },
-  "named import ": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "imp",
-    "body": ["import { $0 } from '$1';"]
-  },
-  "default import": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "impd",
-    "body": ["import $0 from '$1';"]
-  },
   "Object.assign": {
     "prefix": "assign",
     "body": ["Object.assign(this, params);"]
@@ -44,40 +34,34 @@
 
   // React
   "react self-closed fragment": {
-    "scope": "html,javascript,javascriptreact,typescriptreact",
+    "scope": "html,javascriptreact,typescriptreact",
     "prefix": "frag",
     "body": ["<$0 />"]
   },
   "react fragment": {
-    "scope": "html,javascript,javascriptreact,typescriptreact",
+    "scope": "html,javascriptreact,typescriptreact",
     "prefix": "fragg",
     "body": ["<$0>", "</>"]
   },
   "useEffect": {
-    "scope": "javascript,javascriptreact,typescriptreact",
+    "scope": "javascriptreact,typescriptreact",
     "prefix": "useeffect",
     "body": ["useEffect(() => console.log($0), [$0]);"]
   },
 
   // Styled Components
   "styled destructuring": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "javascriptreact,typescriptreact",
     "prefix": "deststyled",
     "body": ["  ${({ theme }) => css`", "    $0", "  `};"]
   },
   "styled tag": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "javascriptreact,typescriptreact",
     "prefix": "tagstyled",
-    "body": [
-      "export const $0 = styled.div`",
-      "  ${({ theme }) => css`",
-      "",
-      "  `}",
-      "`;"
-    ]
+    "body": ["export const $0 = styled.div`", "  ${({ theme }) => css`", "", "  `}", "`;"]
   },
   "styled components modifier": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "javascriptreact,typescriptreact",
     "prefix": "modifier",
     "body": ["  $0: (theme: DefaultTheme) => css`", "  ", "  `,"]
   },
