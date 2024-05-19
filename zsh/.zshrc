@@ -45,6 +45,7 @@ alias cdw="cd ~/work"
 
 # clipboard
 cb() { $@ | xclip -sel clip } # do not accept 'aliased' params
+alias degree="cb echo º" 
 alias notes="cb echo ⭕✅👉💧"
 alias taviao="cb echo \"¯\_(ツ)_/¯\""
 alias travessao="cb echo \"—\"" 
@@ -109,6 +110,13 @@ lh() { xdg-open http://localhost:$1 }
 # mkdir
 alias mk="mkdir -p"
 md() { mk $1 && cd $1 }
+
+ni() { npm install $@ }
+nid() { npm install $@ -D }
+nr() { npm run $@ }
+alias nrd="nr dev"
+alias nrs="nr start"
+alias nrsd="nr start:dev"
 
 # pr
 alias pr="cp ~/templates/pr-template.md ."
