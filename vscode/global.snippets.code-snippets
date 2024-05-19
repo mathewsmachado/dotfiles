@@ -103,7 +103,7 @@
   // ============================= Markdown
   "markdown link": {
     "scope": "markdown",
-    "prefix": "link",
+    "prefix": "lnk",
     "body": ["[$0](##)"]
   }
 }
