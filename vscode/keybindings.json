@@ -17,17 +17,22 @@
   /* bind */ { "key": "shift+alt+down", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
   /* bind */ { "key": "shift+alt+up", "command": "editor.action.copyLinesUpAction", "when": "editorTextFocus && !editorReadonly" },
 
+  
+  
+  // OPEN EXTERNAL TERMINAL
+  /* unbind */ { "key": "ctrl+shift+c", "command": "-workbench.action.terminal.openNativeConsole", "when": "!terminalFocus" },
+
+  // PAGE UP
+  /* bind */ { "key": "pageup", "command": "cursorMove", "args": { "to": "up", "by": "line", "value": 5 }, "when": "editorTextFocus" },
+
+  // PAGE DOWN
+  /* bind */ { "key": "pagedown", "command": "cursorMove", "args": { "to": "down", "by": "line", "value": 5 }, "when": "editorTextFocus" },
+
   // SPLIT EDITOR
   /* unbind */ { "key": "ctrl+\\", "command": "-workbench.action.splitEditor" },
   /* unbind */ { "key": "ctrl+k ctrl+\\", "command": "-workbench.action.splitEditorOrthogonal" },
   /* bind */ { "key": "ctrl+alt+r", "command": "workbench.action.splitEditor" },
   /* bind */ { "key": "ctrl+alt+d", "command": "workbench.action.splitEditorOrthogonal" },
-  
-  // PAGE UP
-  { "key": "pageup", "command": "cursorMove", "args": { "to": "up", "by": "line", "value": 5 }, "when": "editorTextFocus" },
-
-  // PAGE DOWN
-  { "key": "pagedown", "command": "cursorMove", "args": { "to": "down", "by": "line", "value": 5 }, "when": "editorTextFocus" },
 
   // ============================= EXPLORER
   // OPEN/CLOSE EXPLORER
@@ -40,14 +45,15 @@
 
   // FOCUS EXPLORER
   /* unbind */ { "key": "ctrl+shift+e", "command": "-workbench.view.explorer" },
-  /* bind */ { "key": "ctrl+'", "command": "workbench.view.explorer" },
+  /* unbind */ { "key": "ctrl+`", "command": "-workbench.action.terminal.toggleTerminal", "when": "terminal.active" },
+  /* bind */ { "key": "ctrl+`", "command": "workbench.view.explorer" },
 
-  // BLUR EXPLORER 
+  // BLUR EXPLORER
   /* unbind */ { "key": "ctrl+shift+e", "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker", "when": "inFilesPicker && inQuickOpen" },
-  /* bind */ { "key": "ctrl+'", "command": "workbench.action.quickOpenNavigatePreviousInFilePicker", "when": "inFilesPicker && inQuickOpen" },
-
+  /* bind */ { "key": "ctrl+`", "command": "workbench.action.quickOpenNavigatePreviousInFilePicker", "when": "inFilesPicker && inQuickOpen" },
+ 
   // COLLAPSE EXPLORER FOLDERS
-  /* bind */ { "key": "ctrl+shift+'", "command": "workbench.files.action.collapseExplorerFolders" },
+  /* bind */ { "key": "ctrl+shift+`", "command": "workbench.files.action.collapseExplorerFolders" },
 
   // ============================= FILE
   // FORMAT
@@ -80,6 +86,11 @@
   /* unbind */ { "key": "ctrl+h", "command": "-editor.action.startFindReplaceAction", "when": "editorFocus || editorIsOpen" },
   /* unbind */ { "key": "ctrl+k ctrl+i", "command": "-editor.action.showHover", "when": "editorTextFocus" },
   /* bind */ { "key": "ctrl+h", "command": "editor.action.showHover", "when": "editorTextFocus" },
+
+  // ============================= TERMINAL
+  /* unbind */ { "key": "ctrl+shift+`", "command": "-workbench.action.terminal.new", "when": "terminalProcessSupported || terminalWebExtensionContributedProfile" },
+  /* bind */ { "key": "ctrl+shift+[Quote]", "command": "workbench.action.terminal.new", "when": "terminalProcessSupported || terminalWebExtensionContributedProfile" },
+
   
   // ============================= WORKBENCH
   /* unbind */ { "key": "ctrl+q", "command": "-workbench.action.quit" },
@@ -97,7 +108,21 @@
   /* bind */ { "key": "ctrl+shift+l", "command": "console.log.wrap.down.prefix", "when": "editorTextFocus" },
 
   /* unbind */ { "key": "ctrl+shift+l", "command": "-editor.action.selectHighlights", "when": "editorFocus" },
-  /* bind */ { "key": "ctrl+alt+l", "command": "editor.action.selectHighlights", "when": "editorFocus" },
+  /* bind */ { "key": "ctrl+shift+d", "command": "editor.action.selectHighlights", "when": "editorFocus" },
 
-  { "none": "none", "key": "none", "command": "none" }
+  {
+    "none": "none",
+    "key": "none",
+    "command": "none"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "editor.action.organizeImports",
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "-editor.action.organizeImports",
+    "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
 ]
