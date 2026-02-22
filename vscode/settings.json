@@ -3,13 +3,14 @@
   // editor
   "editor.detectIndentation": false,
   "editor.formatOnSave": false,
-  "editor.tabSize": 2,
+  // "editor.tabSize": 2,
+
 
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "alt",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [80, 88, 100],
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
   "editor.inlineSuggest.enabled": true,
@@ -20,20 +21,18 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
 
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, package-lock*, next*, .editorconfig, .funcignore, babel*, commitlint*, .prettier*, .lintstaged*, jest*",
-    ".env": ".env*",
-    "local.settings.json": "local.settings*"
+//   "explorer.fileNesting.enabled": true,
+//   "explorer.fileNesting.patterns": {
+//     "package.json": ".eslint*, prettier*, tsconfig*, package-lock*, next*, .editorconfig, .funcignore, babel*, commitlint*, .prettier*, .lintstaged*, jest*",
+//     ".env": ".env*",
+//     "local.settings.json": "local.settings*"
 
-  },
+//   },
 
   // languages
   "css.lint.unknownAtRules": "ignore",
 
   "html.completion.attributeDefaultValue": "singlequotes",
-
-  "python.defaultInterpreterPath": "/usr/local/bin/python3.8",
 
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
@@ -93,15 +92,16 @@
   "typescript.suggest.paths": false,
 
   // this '*' is the default for all languages, unless otherwise specified.
-  "[*]": { "editor.tabSize": 2 },
-  "[sql]": { "editor.tabSize": 4, "editor.insertSpaces": false },
+  // "[*]": { "editor.tabSize": 2 },
+  // "[sql]": { "editor.tabSize": 4 },
+  // "[hive-sql]": { "editor.tabSize": 4 },
   "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  "[jsonc]": { "editor.defaultFormatter": "vscode.json-language-features" },
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[plaintext]": { "editor.tabSize": 2 },
+  // "[plaintext]": { "editor.tabSize": 2 },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
@@ -111,10 +111,64 @@
   "prettier.printWidth": 120,
 
   "[python]": {
-    "editor.tabSize": 4,
+    // "editor.tabSize": 4,
     // "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "diffEditor.ignoreTrimWhitespace": false
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "mssql.enableQueryHistoryCapture": false
+  "mssql.enableQueryHistoryCapture": false,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.largeFileOptimizations": false,
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+},
+"geminicodeassist.project": "",
+"cloudcode.duetAI.project": "",
+"docker.extension.enableComposeLanguageServer": false,
+"workbench.editor.empty.hint": "hidden",
+"[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+},
+"[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+},
+"gitlens.ai.model": "vscode",
+"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+"terminal.integrated.suggest.enabled": false,
+
+  // ,
+  // "files.associations": {
+  //   "*.sql": "sql, jinja-sql",
+  //   "*.yml": "yaml, jinja-yaml"
+  // }
+
+    "remote.autoForwardPorts": false,
+
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    // "editor.quickSuggestionsDelay": 300
+"[snippets]": {
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnEnter": "on"
+}
 }
