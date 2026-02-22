@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Fira Code Retina, Consolas",
+    "editor.fontLigatures": true,
+    "editor.rulers": [50, 80, 88, 100, 120],
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "Dracula Pro",
+    "workbench.iconTheme": "material-icon-theme",
+  }
+  
