@@ -17,4 +17,6 @@
     { "key": "ctrl+shift+oem_6", "command": "editor.toggleFold", "when": "editorTextFocus && foldingEnabled" },
     { "key": "ctrl+abnt_c1", "command": "editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
     { "key": "ctrl+oem_2", "command": "trailing.toggleSemicolon", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+l", "command": "workbench.action.terminal.clear", "when": "terminalFocus" },
+    { "key": "ctrl+j", "command": "runCommands", "args": { "commands": ["workbench.action.togglePanel", "workbench.action.focusActiveEditorGroup"] }, "when": "panelVisible" },
 ]
